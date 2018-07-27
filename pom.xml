@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <distributionManagement>
   <repository>
-    <id>SUDEEP</id>
+    <id>nexusdeploy</id>
     <url>http://localhost:8082/nexus/content/sites/nexusdeploy</url>
   </repository>
 </distributionManagement>
