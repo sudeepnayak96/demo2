@@ -7,6 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>FirstWeb Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+  <repository>
+    <id>SUDEEP</id>
+    <url>http://localhost:8082/nexus/content/sites/SUDEEP</url>
+  </repository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
